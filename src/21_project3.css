@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+    margin: 0em;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 3px 9px 4px rgba(140, 30, 159, 0.3);
+}
+
+main {
+    padding: 36px;
+}
+
+.header--img {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: 0.75 rem;
+    font-weight: 500;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    margin-bottom: 17px;
+}
+
+.form--input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-indent: 5px;
+
+}
+
+.form--button {
+    grid-column: 1/-1;
+    transition-duration: 0.123s;
+    color: gray;
+    font-weight: bold;
+    border: 1px solid green;
+    /* border: none; */
+    display: block;
+    /* margin:  0 auto; */
+    background: linear-gradient(90deg, white 5%, silver 100%);
+    /* background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%); */
+    cursor: pointer;
+    /* border-radius:5px; */
+
+}
+
+.form--button:hover {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.14), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+
+.form--button:active {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75), 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+}
+.meme {
+    position: relative;
+}
+.meme--image {
+    /* max-width: 100%; */
+    /* align-items: center;
+    justify-content: center;
+    margin-top:30px; */
+    /* display: block;
+    margin: 0 auto;
+    margin-top: 30px; */
+
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}

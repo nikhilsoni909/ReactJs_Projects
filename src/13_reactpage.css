@@ -1,0 +1,64 @@
+*{
+    box-sizing :border-box;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+body{
+    margin:0;
+    background: #282d35;
+}
+
+nav{
+    display:flex;
+    text-align:center;
+    background-color:#12222A;
+    padding: 15px 10px;
+}
+.nav--logo_text{ 
+    margin-right:auto;
+    text-transform: uppercase;
+        padding-bottom: 10px;
+        color:#61DAFB;
+        font-weight: 700;
+
+}
+
+   .nav--title{
+   
+    text-transform:uppercase;
+    padding-bottom: 10px;
+    color:rgba(255,255,255,0.6);
+    font-weight: 600;
+}
+.nav--icon {
+    height:57px;
+    width:57px;
+    margin-right:50px;
+  
+}
+main{
+    padding:55px 25px;
+    /* background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%; */
+    background:url(./images/react-icon-large.png) no-repeat right 75%;
+    color: rgba(202, 216, 238, 0.8);
+
+}
+.main--title{
+    margin:0;
+    font-size:40 px;
+    /* letter-spacing:-0.05em; */
+}
+.main--facts{
+    margin-top:46px;
+    font-size:20px;
+     
+}
+.main--facts>li{
+    line-height: 19px;
+    padding-block:10px;
+}
+.main--facts>li::marker {
+   font-size:1.4rem;
+   color:#61dafb;
+}

@@ -1,0 +1,26 @@
+.nav {
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: rgba(9, 8, 8, 0.8);
+    display: flex;
+    text-align: center;
+}
+
+.nav-logo {
+    width: 70px;
+}
+
+.nav-items {
+    padding-left: 100px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-items>li {
+    padding: 10px;
+    color: rgb(144, 149, 159);
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 1.5rem;
+}
